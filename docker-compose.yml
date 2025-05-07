@@ -1,0 +1,31 @@
+version: '2'
+services:
+
+  sp.ilc4clarin.ilc.cnr.it:
+    build: build
+    container_name: sp.ilc4clarin.ilc.cnr.it
+    hostname: proxy
+    volumes:
+      - ./simplesamlphp:/code
+      - ./proxy:/conf
+      - /etc/letsencrypt:/etc/letsencrypt
+    working_dir: /code
+    environment:
+      - SIMPLESAMLPHP_CONFIG_DIR=/conf/
+    command: apache2 -D FOREGROUND
+    entrypoint: ["/bin/sh", "-c", "exec apache2-foreground"]
+
+  nginx:
+    image: nginx:stable
+    container_name: nginx_sso
+    links:
+      - sp.ilc4clarin.ilc.cnr.it
+    volumes:
+      - ./nginx:/etc/nginx:ro
+      # - /etc/letsencrypt:/etc/letsencrypt
+    ports:
+      - '84:80'
+      - '2443:443'
+
+volumes:
+  saml-mysql-data:
