@@ -56,12 +56,12 @@ CLARIN-IT, the Italian node of [CLARIN ERIC](https://www.clarin.eu/), contribute
 - De Castilho, R. E., Klie, J.-C., Kumar, N., Boullosa, B., & Gurevych, I. (2018).  
   *Linking Text and Knowledge Using the INCEpTION Annotation Platform.*  
   In *IEEE 14th International Conference on e-Science* (pp. 327–328).  
-  [DOI or link if available]
+
 
 - Gavriilidou, M., Piperidis, S., Galanis, D., Pouli, K., Bakagianni, J., Tsiouli, I., … Gkirtzou, K. (2024).  
   *The CLARIN:EL infrastructure: Platform, Portal, K-Centre.*  
   In *Linköping Electronic Conference Proceedings*.  
-  [DOI or link if available]
+
 
 
 
