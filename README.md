@@ -31,7 +31,7 @@ The SAML protocol ensures secure and interoperable exchanges of authentication a
 
 ## 🏗️ Project Context
 
-This implementation is part of the **[H2IOSC](https://www.cnr.it/en/h2iosc)** (Humanities and Heritage Italian Open Science Cloud) initiative, funded under the **EU NextGenerationEU** program through Italy's **National Recovery and Resilience Plan (NRRP)**.
+This implementation is part of the **[H2IOSC](https://www.h2iosc.cnr.it/)** (Humanities and Heritage Italian Open Science Cloud) initiative, funded under the **EU NextGenerationEU** program through Italy's **National Recovery and Resilience Plan (NRRP)**.
 
 CLARIN-IT, the Italian node of [CLARIN ERIC](https://www.clarin.eu/), contributes to this initiative by providing interoperable access to digital language resources, supporting research and innovation in the humanities.
 
